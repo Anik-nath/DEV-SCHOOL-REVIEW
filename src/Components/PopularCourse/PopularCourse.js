@@ -23,7 +23,7 @@ const PopularCourse = () => {
         </Spinner>
       ) : (
         <Container>
-          <Row xs={1} md={4} className="g-4">
+          <Row sm={2} md={2} xs={1} lg={4} className="g-4">
             {popular.map((service) => (
               <Course key={service.id} service={service}></Course>
             ))}

@@ -3,10 +3,10 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 
 const About = () => {
     return (
-    <div style={{height : "100vh"}}>
+    <div className="responsive-height" >
       <Container className="py-5">
       <h2 className="border-bottom border-dark d-inline-block mb-5">About Us</h2>
-        <Row>
+        <Row xs={1} sm={1} md={2} lg={2} className="g-5">
           <Col style={{textAlign : "justify"}}>
             <div className="mt-5">
                 <h2>I will stay with you until you pass your exam.</h2>
@@ -18,7 +18,7 @@ const About = () => {
             </div>
           </Col>
           <Col>
-            <img src="https://image.freepik.com/free-vector/tiny-hr-specialist-looking-recruits-job-flat-illustration_74855-15541.jpg" alt="" />
+            <img className="img-fluid" src="https://image.freepik.com/free-vector/tiny-hr-specialist-looking-recruits-job-flat-illustration_74855-15541.jpg" alt="" />
           </Col>
         </Row>
       </Container>

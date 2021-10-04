@@ -3,12 +3,12 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 
 const Instructors = () => {
   return (
-    <div style={{ height: "100vh" }}>
+    <div className="responsive-height">
       <Container className="py-5">
         <h2 className="border-bottom border-dark d-inline-block mb-5">
           Our Instructors
         </h2>
-        <Row>
+        <Row xs={1} sm={1} md={2} lg={2} className="g-5">
           <Col style={{ textAlign: "justify" }}>
             <div className="mt-5">
               <h2>We have good instructors for your best take care.</h2>
@@ -29,7 +29,7 @@ const Instructors = () => {
             </div>
           </Col>
           <Col>
-            <img
+            <img className="img-fluid"
               style={{ height: "400px" }}
               src="https://image.freepik.com/free-vector/professor-concept-illustration_114360-4226.jpg"
               alt=""

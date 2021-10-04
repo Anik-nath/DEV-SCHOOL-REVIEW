@@ -3,14 +3,14 @@ import { Button, Col, Container, Form, Row } from "react-bootstrap";
 
 const Contact = () => {
   return (
-    <div style={{ height: "100vh" }}>
+    <div className="responsive-height" >
       <Container className="py-5">
         <h2 className="border-bottom border-dark d-inline-block mb-5">
           Contact Us
         </h2>
-        <Row>
+        <Row xs={1} sm={1} md={2} lg={2} className="g-5">
           <Col>
-            <img
+            <img className="img-fluid"
               src="https://image.freepik.com/free-vector/contact-us-concept-illustration_114360-4779.jpg"
               alt=""
             />

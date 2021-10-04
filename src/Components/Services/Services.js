@@ -23,7 +23,7 @@ const Services = () => {
         </Spinner>
         : 
        <Container>
-            <Row xs={1} md={3} className="g-5 mb-5">
+            <Row sm={2} xs={1} lg={3} md={2} className="g-5 mb-5">
             {services.map((service) => (
             <Course key={service.id} service={service}></Course>
             ))}
