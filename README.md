@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-visit my site https://dev-school-2021.netlify.app/home
+visit my site https://dev-school-2021.netlify.app
 
 ## Available Scripts
 
