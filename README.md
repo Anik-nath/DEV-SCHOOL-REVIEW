@@ -2,6 +2,12 @@
 
 visit my site https://dev-school-2021.netlify.app
 
+* Item 1
+* Item 2
+* Item 3
+  * Sub Item 1
+  * Sub Item 2
+
 ## Available Scripts
 
 In the project directory, you can run:
