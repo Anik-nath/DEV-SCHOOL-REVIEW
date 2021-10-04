@@ -2,11 +2,13 @@
 
 visit my site https://dev-school-2021.netlify.app
 
-* Item 1
-* Item 2
-* Item 3
-  * Sub Item 1
-  * Sub Item 2
+* Use react for front-end
+* use react bootstrap for responsive 
+* use react router for routing page
+* click link to visit and route
+  * home
+  * about
+  * courses
 
 ## Available Scripts
 
