@@ -23,6 +23,7 @@ function App() {
           </Route>
           <Route exact path="/">
             <Main></Main>
+            <PopularCourse></PopularCourse>
           </Route>
           <Route path="/about">
             <About></About>
