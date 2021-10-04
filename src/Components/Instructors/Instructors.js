@@ -16,9 +16,12 @@ const Instructors = () => {
                 Classes Taught by Real Creators{" "}
               </h6>
               <p className="lead">
-                So I said codswallop car boot cheers mufty I don't want no agro
-                are you taking the piss cheeky my lady gutted mate excuse my
-                french, gormless have it cras.
+                Instructors are responsible for
+                providing accurate and timely information about their courses to
+                prospective students, current students, and relevant members of
+                the University community. Instructors must provide academic
+                units and students with accurate course descriptions in a timely
+                fashion.
               </p>
               <Button variant="primary" type="submit">
                 See More

@@ -11,7 +11,7 @@ const About = () => {
             <div className="mt-5">
                 <h2>I will stay with you until you pass your exam.</h2>
                 <h6 className="text-primary py-3">Who else do you know who'll do that for you?</h6>
-                <p className="lead">So I said codswallop car boot cheers mufty I don't want no agro are you taking the piss cheeky my lady gutted mate excuse my french, gormless have it cras.</p>
+                <p className="lead">Service Centers are operated by and for school administrative units to provide support, improve educational services, increase student achievement, provide resources, and create efficiencies through a cooperative structure.</p>
                 <Button variant="primary" type="submit">
                  See More
                 </Button>
