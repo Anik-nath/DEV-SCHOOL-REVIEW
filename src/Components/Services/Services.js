@@ -4,7 +4,6 @@ import Course from "../Course/Course";
 
 const Services = () => {
   const [services, setServices] = useState([]);
-  console.log(services.slice(0,4));
 
   useEffect(() => {
     fetch("./services.JSON")
