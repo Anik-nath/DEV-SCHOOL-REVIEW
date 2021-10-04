@@ -7,8 +7,8 @@ const Banner = () => {
         <div className="banner">
             <div className="img-overlay">
                 <div className="banner-content">
-                    <h1>The Best Learning Institution</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                    <h1>DEV Learning Institution</h1>
+                    <p>This is the place where you learning about more thing and grow up your carriear.</p>
                    <div>
                    <Link to="/about">
                    <Button variant="primary">About Us</Button>
