@@ -1,7 +1,9 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import './Banner.css'
+import './Banner.css';
+import cover from '../../image/cover-1.jpg'
+
 const Banner = () => {
     return (
         <div className="banner">
@@ -16,9 +18,10 @@ const Banner = () => {
                    </div>
                 </div>
             </div>
-            <img src="https://www.nerdwallet.com/assets/blog/wp-content/uploads/2017/06/GettyImages-653901746-1440x864.jpg" alt="" />
+            <img src={cover} alt="" />
         </div>
     );
 };
 
 export default Banner;
+
